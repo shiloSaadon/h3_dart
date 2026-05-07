@@ -1,3 +1,13 @@
+## 0.7.1
+* Adjust Android cmake configuration to force 16KB page size (thanks [@erfran-git](https://github.com/erfan-git), [#37](https://github.com/festelo/h3_dart/pull/37))
+
+## 0.7.0
+* **[BREAKING]** Update `h3` to 4.2.1
+* **[BREAKING]** Update dependencies to the latest versions (min. Dart SDK 3.5.0)
+* Change build system to use `h3` source files directly from their repository (via git submodule)
+* Use `ffiPlugin: true`
+* Replace "ios" and "macos" folder with "darwin"
+
 ## 0.6.6
 * Fix Android release build
 
